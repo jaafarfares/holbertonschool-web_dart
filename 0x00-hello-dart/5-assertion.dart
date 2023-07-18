@@ -3,13 +3,13 @@
 void main(List<String> args) {
   int a = int.parse(args[0]);
   switch(a) { 
-   case 80: { 
-      print('You Passed');
+   case <= 79: { 
+      print('Uncaught Error: Assertion failed: "The score must be bigger or equal to 80');
    } 
    break; 
   
-   case 79: { 
-      print('Uncaught Error: Assertion failed: "The score must be bigger or equal to 80');
+   default: { 
+      print('You Passed');
    } 
    break; 
 }
