@@ -1,5 +1,4 @@
-// print 3 times a string stored in the variable str, followed by its first 9 characters.
-
+// print 3 times a string stored in the variable str, followed by its first 9 characters with substring().
 void main() {
   String str = "Holberton School";
   print("${str * 3}\n${str.substring(0, 9)}\n");
