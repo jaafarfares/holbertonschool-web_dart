@@ -1,5 +1,3 @@
-
-// outer function 
 void outer(String name, String id) {
   String inner() {
   List<String> nameParts = name.split(" ");
