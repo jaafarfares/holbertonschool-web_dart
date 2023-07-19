@@ -1,9 +1,7 @@
-List<String> convertToF(List<double> temperaturesInC) {
-  List<String> temperaturesInF = [];
-  for (double tempInC in temperaturesInC) {
-    double tempInFahrenheit = tempInC * 9 / 5 + 32;
-    String formattedTemp = tempInFahrenheit.toStringAsFixed(2);
-    temperaturesInF.add(formattedTemp);
-  }
+//converts temperatures in celsius to fahrenheit and returns them in a list.
+List<double> convertToF(List<double> temperaturesInC) {
+  List<double> temperaturesInF = temperaturesInC.map((temperatureInC) {
+    return double.parse((temperatureInC * 9 / 5 + 32).toStringAsFixed(2));
+  }).toList();
   return temperaturesInF;
 }
