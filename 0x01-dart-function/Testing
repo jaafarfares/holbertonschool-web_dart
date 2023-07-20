@@ -28,6 +28,5 @@ String longestUniqueSubstring(String str) {
 
     end++; 
   }
-
   return str.substring(maxStart, maxStart + maxLength);
 }
