@@ -5,7 +5,16 @@ class User {
   double? height;
   int? id;
 
-  User({this.id, this.name, this.age, this.height});
+    User({id = int, name = String, age = int, height = double}) {
+    this.id = id;
+    this.name = name;
+    this.age = age;
+    this.height = height;
+  }
+
+
+
+
   Map toJson() {
     return {
       'id': this.id,
