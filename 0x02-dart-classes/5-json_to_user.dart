@@ -7,11 +7,11 @@ class User {
 
   User({this.id, this.name, this.age, this.height});
 
-  Map<String, dynamic> toJson() {
+  Map<dynamic, dynamic> toJson() {
     return {"name": name, "age": age, "height": height, "id": id};
   }
 
-  static User fromJson(Map<String, dynamic> userJson) {
+  static User fromJson(Map<dynamic, dynamic> userJson) {
     return User(
       name: userJson["name"],
       age: userJson["age"],
