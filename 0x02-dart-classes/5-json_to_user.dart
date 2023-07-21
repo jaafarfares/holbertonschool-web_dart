@@ -1,4 +1,3 @@
-//  class with toJson() that return a map representation of the User
 class User {
   String? name;
   int? age;
@@ -27,6 +26,6 @@ class User {
   }
 
   String toString() {
-    return "User(id: $id, name: $name, age: $age, height: $height)";
+    return "User(id : $id ,name: $name, age: $age, height: $height)";
   }
 }
