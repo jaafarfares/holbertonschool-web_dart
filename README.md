@@ -18,6 +18,6 @@
 * ### Creativity and Problem-Solving: By completing various projects and tasks, I demonstrate my creativity in finding innovative solutions to complex problems, highlighting my adaptability as a programmer.
 
 
-###### Feel free to explore and test the functionality of this project by pulling the code from the repository. By doing so, you can directly experience the projects, dive into the code, and witness firsthand my passion for Dart programming and my journey as a software developer. Thank you for taking the time to review my work, and I look forward to sharing more exciting projects in the future! Happy coding!
+###### Feel free to explore and test the functionality of this project by cloning the repository. By doing so, you can directly experience the projects, dive into the code, and witness firsthand my passion for Dart programming and my journey as a software developer. Thank you for taking the time to review my work, and I look forward to sharing more exciting projects in the future! Happy coding!
 
 ### Made by [Jaafar Fares](https://github.com/jaafarfares) for [Holberton School](https://www.holbertonschool.com/)
