@@ -44,4 +44,4 @@ Abstraction in Dart refers to the process of defining the essential characterist
 * [Dart Inheritance](https://www.javatpoint.com/dart-inheritance#:~:text=Dart%20inheritance%20is%20defined%20as,Object%2DOriented%20programming%20approach)
 * [Null-aware Operators in Dart](https://medium.com/@thinkdigitalsoftware/null-aware-operators-in-dart-53ffb8ae80bb)
 
-### Made by [Jaafar Fares](https://github.com/jaafarfares) for [Holberton School](https://www.holbertonschool.com/)
+### Made by [Jaafar Fares](https://jaafarfares.github.io/) for [Holberton School](https://www.holbertonschool.com/)
