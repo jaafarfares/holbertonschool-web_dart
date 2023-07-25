@@ -1,11 +1,9 @@
-import 'dart:convert';
-
-import '1-util.dart';
+// handle error with try catch
 import '2-util.dart';
 
 Future<void> getUser() async {
   try {
-     String user = await fetchUserData();
+     String user = await fetchUser();
   
 
  
